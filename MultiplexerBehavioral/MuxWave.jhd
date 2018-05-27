@@ -1,0 +1,3 @@
+MODULE MuxWave
+SUBMODULE Multiplexer
+INSTANCE UUT

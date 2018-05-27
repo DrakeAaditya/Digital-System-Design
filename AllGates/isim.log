@@ -1,0 +1,33 @@
+ command line:
+   ./AG_Wave_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  54174
+
+Sun Jan 14 18:10:18 2018
+
+Total Line Count = 870
+
+ Elaboration time 0.015625 sec.
+
+ Estimate current memory usage 111.305 Meg. 
+
+ Total signals 18
+ Total nets 9
+ Total signal drivers 9
+ Total blocks 7
+ Total primitive blocks 1
+ Total processes 8
+ntrace select -o on -n /AG_Wave/a 
+ntrace select -o on -n /AG_Wave/b 
+ntrace select -o on -n /AG_Wave/and_out 
+ntrace select -o on -n /AG_Wave/or_out 
+ntrace select -o on -n /AG_Wave/nand_out 
+ntrace select -o on -n /AG_Wave/nor_out 
+ntrace select -o on -n /AG_Wave/not_out 
+ntrace select -o on -n /AG_Wave/xor_out 
+ntrace select -o on -n /AG_Wave/xnor_out 
+ntrace start 
+run all 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.

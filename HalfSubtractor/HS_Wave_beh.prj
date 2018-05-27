@@ -1,0 +1,3 @@
+verilog work "HalfSubtractor.vf"
+verilog work "HS_Wave.tfw"
+verilog work "C:/Xilinx/verilog/src/glbl.v"

@@ -1,0 +1,3 @@
+MODULE DecadeWave
+SUBMODULE Decade
+INSTANCE UUT

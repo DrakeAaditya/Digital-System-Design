@@ -1,0 +1,4 @@
+EN pisowave NULL "E:/College/6th Sem/DSD/DSD LAB/PISO/PISOWave.vhw" sub00/vhpl02 1524108712
+AR pisowave testbench_arch "E:/College/6th Sem/DSD/DSD LAB/PISO/PISOWave.vhw" sub00/vhpl03 1524108713
+EN piso NULL "E:/College/6th Sem/DSD/DSD LAB/PISO/PISO.vhd" sub00/vhpl00 1524108410
+AR piso behavioral "E:/College/6th Sem/DSD/DSD LAB/PISO/PISO.vhd" sub00/vhpl01 1524108411

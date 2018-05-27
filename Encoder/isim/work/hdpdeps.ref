@@ -1,0 +1,14 @@
+V3 7
+FL "E:/College/6th Sem/DSD/DSD LAB/Encoder/Encoder.vhd" 2018/02/01.09:16:22 I.24
+EN work/Encoder 1517456852         FL "E:/College/6th Sem/DSD/DSD LAB/Encoder/Encoder.vhd" \
+      PB ieee/std_logic_1164 1132105529
+AR work/Encoder/Behavioral 1517456853 FL "E:/College/6th Sem/DSD/DSD LAB/Encoder/Encoder.vhd" \
+      EN work/Encoder 1517456852
+FL "E:/College/6th Sem/DSD/DSD LAB/Encoder/WaveEncoder.vhw" 2018/02/01.09:17:31 I.24
+EN work/WaveEncoder 1517456920     FL "E:/College/6th Sem/DSD/DSD LAB/Encoder/WaveEncoder.vhw" \
+      PB ieee/std_logic_1164 1132105529 PB ieee/STD_LOGIC_TEXTIO 1132105539 \
+      PB ieee/std_logic_arith 1132105531 PB ieee/STD_LOGIC_UNSIGNED 1132105537 \
+      PB std/textio 1132105521
+AR work/WaveEncoder/testbench_arch 1517456921 \
+      FL "E:/College/6th Sem/DSD/DSD LAB/Encoder/WaveEncoder.vhw" \
+      EN work/WaveEncoder 1517456920 CP Encoder PB ieee/STD_LOGIC_TEXTIO 1132105539

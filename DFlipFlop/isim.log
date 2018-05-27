@@ -1,0 +1,29 @@
+ command line:
+   ./DWave_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  50566
+
+Thu Mar 22 09:08:33 2018
+
+Total Line Count = 752
+
+ Elaboration time 0.015625 sec.
+
+ Estimate current memory usage 152.06 Meg. 
+
+ Total signals 10
+ Total nets 5
+ Total signal drivers 5
+ Total blocks 7
+ Total primitive blocks 1
+ Total processes 3
+ntrace select -o on -n /DWave/clk 
+ntrace select -o on -n /DWave/df 
+ntrace select -o on -n /DWave/pr 
+ntrace select -o on -n /DWave/cr 
+ntrace select -o on -n /DWave/q 
+ntrace start 
+run all 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.

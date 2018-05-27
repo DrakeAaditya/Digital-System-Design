@@ -1,0 +1,29 @@
+ command line:
+   ./VHDLTestBench_vhd_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  50232
+
+Thu Apr 26 09:03:04 2018
+
+Total Line Count = 881
+
+ Elaboration time 0 sec.
+
+ Estimate current memory usage 152.015 Meg. 
+
+ Total signals 10
+ Total nets 5
+ Total signal drivers 5
+ Total blocks 6
+ Total primitive blocks 1
+ Total processes 3
+ntrace select -o on -n /VHDLTestBench_vhd/a 
+ntrace select -o on -n /VHDLTestBench_vhd/b 
+ntrace select -o on -n /VHDLTestBench_vhd/c 
+ntrace select -o on -n /VHDLTestBench_vhd/sum 
+ntrace select -o on -n /VHDLTestBench_vhd/carry 
+ntrace start 
+run 1000 ns 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.

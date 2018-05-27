@@ -1,0 +1,2 @@
+xst -ise "E:/College/6th Sem/DSD/DSD LAB/3BitUpd/own/3BitUpDown/3BitUpDown" -intstyle ise -ifn UpDownCounter.xst -ofn UpDownCounter.syr
+xst -ise "E:/College/6th Sem/DSD/DSD LAB/3BitUpd/own/3BitUpDown/3BitUpDown" -intstyle ise -ifn UpDownCounter.xst -ofn UpDownCounter.syr

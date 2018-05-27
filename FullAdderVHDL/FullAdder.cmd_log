@@ -1,0 +1,2 @@
+xst -ise "E:/College/6th Sem/DSD LAB/FullAdderVHDL/FullAdderVHDL" -intstyle ise -ifn FullAdder.xst -ofn FullAdder.syr
+xst -intstyle ise -ifn "F:/College/6th Sem/DSD/DSD LAB/FullAdderVHDL/FullAdder.xst" -ofn "F:/College/6th Sem/DSD/DSD LAB/FullAdderVHDL/FullAdder.syr" 

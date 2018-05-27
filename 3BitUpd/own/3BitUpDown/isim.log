@@ -1,0 +1,32 @@
+ command line:
+   ./UpDownWave_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  50646
+
+Thu Apr 12 08:58:55 2018
+
+Total Line Count = 760
+
+ Elaboration time 0 sec.
+
+ Estimate current memory usage 152.764 Meg. 
+
+ Total signals 10
+ Total nets 7
+ Total signal drivers 5
+ Total blocks 7
+ Total primitive blocks 1
+ Total processes 3
+ntrace select -o on -n /UpDownWave/pre 
+ntrace select -o on -n /UpDownWave/clr 
+ntrace select -o on -n /UpDownWave/clk 
+ntrace select -o on -n /UpDownWave/a 
+ntrace select -o on -n /UpDownWave/y 
+ntrace select -o on -n /UpDownWave/y 
+ntrace select -o on -n /UpDownWave/y 
+ntrace select -o on -n /UpDownWave/y 
+ntrace start 
+run all 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.

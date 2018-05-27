@@ -1,0 +1,3 @@
+MODULE UpDownWave
+SUBMODULE UpDownCounter
+INSTANCE UUT

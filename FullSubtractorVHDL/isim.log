@@ -1,0 +1,29 @@
+ command line:
+   ./FS_Wave_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  58100
+
+Sun Jan 14 20:34:36 2018
+
+Total Line Count = 759
+
+ Elaboration time 0.015625 sec.
+
+ Estimate current memory usage 110.772 Meg. 
+
+ Total signals 10
+ Total nets 5
+ Total signal drivers 5
+ Total blocks 7
+ Total primitive blocks 1
+ Total processes 3
+ntrace select -o on -n /FS_Wave/a 
+ntrace select -o on -n /FS_Wave/b 
+ntrace select -o on -n /FS_Wave/c 
+ntrace select -o on -n /FS_Wave/difference 
+ntrace select -o on -n /FS_Wave/borrow 
+ntrace start 
+run all 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.

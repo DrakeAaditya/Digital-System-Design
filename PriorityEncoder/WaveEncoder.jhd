@@ -1,0 +1,3 @@
+MODULE WaveEncoder
+SUBMODULE Encoder
+INSTANCE UUT

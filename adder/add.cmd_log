@@ -1,0 +1,3 @@
+xst -intstyle ise -filter "E:/College/6th Sem/DSD/DSD LAB/adder/iseconfig/filter.filter" -ifn "E:/College/6th Sem/DSD/DSD LAB/adder/add.xst" -ofn "E:/College/6th Sem/DSD/DSD LAB/adder/add.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-csg225-3 "add.ngc" add.ngd  
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-csg225-3 "add.ngc" add.ngd  

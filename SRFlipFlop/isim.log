@@ -1,0 +1,28 @@
+ command line:
+   ./SRWave_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  53918
+
+Wed Mar 21 21:34:31 2018
+
+Total Line Count = 754
+
+ Elaboration time 0 sec.
+
+ Estimate current memory usage 152.977 Meg. 
+
+ Total signals 8
+ Total nets 4
+ Total signal drivers 4
+ Total blocks 7
+ Total primitive blocks 1
+ Total processes 3
+ntrace select -o on -n /SRWave/s 
+ntrace select -o on -n /SRWave/r 
+ntrace select -o on -n /SRWave/clk 
+ntrace select -o on -n /SRWave/q 
+ntrace start 
+run all 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.

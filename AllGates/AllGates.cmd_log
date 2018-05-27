@@ -1,0 +1,2 @@
+xst -ise "E:/College/6th Sem/DSD LAB/AllGates/AllGates" -intstyle ise -ifn AllGates.xst -ofn AllGates.syr
+xst -intstyle ise -ifn "F:/College/6th Sem/DSD/DSD LAB/AllGates/AllGates.xst" -ofn "F:/College/6th Sem/DSD/DSD LAB/AllGates/AllGates.syr" 

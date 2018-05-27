@@ -1,0 +1,85 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2003 Xilinx, Inc.
+// All Right Reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 8.1i
+//  \   \         Application : ISE
+//  /   /         Filename : HS_Wave.ant
+// /___/   /\     Timestamp : Sun Jan 14 16:12:19 2018
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: 
+//Design Name: HS_Wave
+//Device: Xilinx
+//
+`timescale 1ns/1ps
+
+module HS_Wave;
+    reg A = 1'b0;
+    reg B = 1'b0;
+    wire BORROW;
+    wire DIFFERENCE;
+
+
+    HalfSubtractor UUT (
+        .A(A),
+        .B(B),
+        .BORROW(BORROW),
+        .DIFFERENCE(DIFFERENCE));
+
+    integer TX_FILE = 0;
+    integer TX_ERROR = 0;
+    
+    initial begin    // Annotation process
+        #0;
+        ANNOTATE_BORROW;
+        ANNOTATE_DIFFERENCE;
+        forever begin
+            #50;
+            ANNOTATE_BORROW;
+            ANNOTATE_DIFFERENCE;
+            #50;
+        end
+    end
+
+    initial begin  // Open the annotations file...
+        TX_FILE = $fopen("E:\\College\\6th Sem\\DSD LAB\\HalfSubtractor\\HS_Wave.ano");
+        #1000 // Final time:  1000 ns
+        $display("Success! Annotation Simulation Complete.");
+        $fdisplay(TX_FILE, "Total[%d]", TX_ERROR);
+        $fclose(TX_FILE);
+        $finish;
+    end
+
+    initial begin
+        // -------------  Current Time:  200ns
+        #200;
+        B = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  1000ns
+        #800;
+        A = 1'b0;
+    end
+
+    task ANNOTATE_BORROW;
+        #0 begin
+            $fdisplay(TX_FILE, "Annotate[%d,BORROW,%b]", $time, BORROW);
+            $fflush(TX_FILE);
+            TX_ERROR = TX_ERROR + 1;
+        end
+    endtask
+
+    task ANNOTATE_DIFFERENCE;
+        #0 begin
+            $fdisplay(TX_FILE, "Annotate[%d,DIFFERENCE,%b]", $time, DIFFERENCE);
+            $fflush(TX_FILE);
+            TX_ERROR = TX_ERROR + 1;
+        end
+    endtask
+
+endmodule
+

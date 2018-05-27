@@ -1,0 +1,8 @@
+V3 3
+FL "F:/College/6th Sem/DSD/DSD LAB/AllGates/AllGates.vhd" 2018/01/14.17:55:59 P.20131013
+EN work/AllGates 1516243810 \
+      FL "F:/College/6th Sem/DSD/DSD LAB/AllGates/AllGates.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/AllGates/Behavioral 1516243811 \
+      FL "F:/College/6th Sem/DSD/DSD LAB/AllGates/AllGates.vhd" EN work/AllGates 1516243810

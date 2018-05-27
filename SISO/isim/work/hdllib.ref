@@ -1,0 +1,4 @@
+AR sisowave testbench_arch "E:/College/6th Sem/DSD/DSD LAB/SISO/SISOwave.vhw" sub00/vhpl03 1522898984
+AR siso behavioral "E:/College/6th Sem/DSD/DSD LAB/SISO/SISO.vhd" sub00/vhpl01 1522898982
+EN sisowave NULL "E:/College/6th Sem/DSD/DSD LAB/SISO/SISOwave.vhw" sub00/vhpl02 1522898983
+EN siso NULL "E:/College/6th Sem/DSD/DSD LAB/SISO/SISO.vhd" sub00/vhpl00 1522898981

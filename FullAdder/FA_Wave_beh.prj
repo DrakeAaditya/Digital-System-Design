@@ -1,0 +1,3 @@
+verilog work "FullAdder.vf"
+verilog work "FA_Wave.tfw"
+verilog work "C:/Xilinx/verilog/src/glbl.v"

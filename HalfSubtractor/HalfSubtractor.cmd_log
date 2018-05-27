@@ -1,0 +1,4 @@
+sch2verilog -intstyle ise -family aspartan3   -w "E:/College/6th Sem/DSD LAB/HalfSubtractor/HalfSubtractor.sch" HalfSubtractor.vf
+xst -ise "E:/College/6th Sem/DSD LAB/HalfSubtractor/HalfSubtractor" -intstyle ise -ifn HalfSubtractor.xst -ofn HalfSubtractor.syr
+sch2verilog -intstyle ise -family aspartan3   -w "E:/College/6th Sem/DSD LAB/HalfSubtractor/HalfSubtractor.sch" HalfSubtractor.vf
+xst -ise "E:/College/6th Sem/DSD LAB/HalfSubtractor/HalfSubtractor" -intstyle ise -ifn HalfSubtractor.xst -ofn HalfSubtractor.syr

@@ -1,0 +1,30 @@
+ command line:
+   ./PISOWave_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  50174
+
+Thu Apr 19 09:02:02 2018
+
+Total Line Count = 752
+
+ Elaboration time 0 sec.
+
+ Estimate current memory usage 151.925 Meg. 
+
+ Total signals 12
+ Total nets 9
+ Total signal drivers 3
+ Total blocks 7
+ Total primitive blocks 1
+ Total processes 3
+ntrace select -o on -n /PISOWave/pin 
+ntrace select -o on -n /PISOWave/clk 
+ntrace select -o on -n /PISOWave/clr 
+ntrace select -o on -n /PISOWave/pre 
+ntrace select -o on -n /PISOWave/load 
+ntrace select -o on -n /PISOWave/sout 
+ntrace start 
+run all 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.

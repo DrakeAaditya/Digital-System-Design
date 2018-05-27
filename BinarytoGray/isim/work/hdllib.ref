@@ -1,0 +1,4 @@
+AR binarygray bg "E:/College/6th Sem/DSD/DSD LAB/BinarytoGray/BinaryGray.vhd" sub00/vhpl01 1518059580
+EN bgwave NULL "E:/College/6th Sem/DSD/DSD LAB/BinarytoGray/BGWave.vhw" sub00/vhpl02 1518059581
+AR bgwave testbench_arch "E:/College/6th Sem/DSD/DSD LAB/BinarytoGray/BGWave.vhw" sub00/vhpl03 1518059582
+EN binarygray NULL "E:/College/6th Sem/DSD/DSD LAB/BinarytoGray/BinaryGray.vhd" sub00/vhpl00 1518059579

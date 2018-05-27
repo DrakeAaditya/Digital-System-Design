@@ -1,0 +1,2 @@
+Error at time=965ns Y=110, Expected = 010 
+1 errors found in simulation

@@ -1,0 +1,3 @@
+xst -ise "E:/College/6th Sem/DSD/DSD LAB/DeMux/DeMux" -intstyle ise -ifn Structural.xst -ofn Structural.syr
+xst -ise "E:/College/6th Sem/DSD/DSD LAB/DeMux/DeMux" -intstyle ise -ifn Structural.xst -ofn Structural.syr
+xst -ise "E:/College/6th Sem/DSD/DSD LAB/DeMux/DeMux" -intstyle ise -ifn Structural.xst -ofn Structural.syr

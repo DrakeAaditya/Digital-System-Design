@@ -1,0 +1,3 @@
+MODULE WaveDecoder
+SUBMODULE Decoder
+INSTANCE UUT

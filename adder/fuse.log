@@ -1,0 +1,18 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o E:/College/6th Sem/DSD/DSD LAB/adder/addtest_isim_beh.exe -prj E:/College/6th Sem/DSD/DSD LAB/adder/addtest_beh.prj work.addtest 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "E:/College/6th Sem/DSD/DSD LAB/adder/add.vhd" into library work
+Parsing VHDL file "E:/College/6th Sem/DSD/DSD LAB/adder/addtest.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 228156 KB
+Fuse CPU Usage: 405 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture behavioral of entity add [add_default]
+Compiling architecture behavior of entity addtest
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+ERROR:Simulator:861 - Failed to link the design

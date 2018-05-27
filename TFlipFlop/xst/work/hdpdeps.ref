@@ -1,0 +1,7 @@
+V3 3
+FL "E:/College/6th Sem/DSD/DSD LAB/TFlipFlop/T.vhd" 2018/03/22.09:19:13 I.24
+EN work/T 1521690556               FL "E:/College/6th Sem/DSD/DSD LAB/TFlipFlop/T.vhd" \
+      PB ieee/std_logic_1164 1131108373 PB ieee/std_logic_arith 1131108375 \
+      PB ieee/STD_LOGIC_UNSIGNED 1131108379
+AR work/T/Behavioral 1521690557    FL "E:/College/6th Sem/DSD/DSD LAB/TFlipFlop/T.vhd" \
+      EN work/T 1521690556

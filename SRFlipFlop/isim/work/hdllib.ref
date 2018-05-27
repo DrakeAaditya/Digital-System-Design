@@ -1,0 +1,4 @@
+AR srwave testbench_arch "E:/College/6th Sem/DSD/DSD LAB/SRFlipFlop/SRWave.vhw" sub00/vhpl03 1521648250
+AR sr behavioral "E:/College/6th Sem/DSD/DSD LAB/SRFlipFlop/SR.vhd" sub00/vhpl01 1521648248
+EN srwave NULL "E:/College/6th Sem/DSD/DSD LAB/SRFlipFlop/SRWave.vhw" sub00/vhpl02 1521648249
+EN sr NULL "E:/College/6th Sem/DSD/DSD LAB/SRFlipFlop/SR.vhd" sub00/vhpl00 1521648247

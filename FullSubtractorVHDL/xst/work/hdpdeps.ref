@@ -1,0 +1,9 @@
+V3 3
+FL "E:/College/6th Sem/DSD LAB/FullSubtractorVHDL/FullSubtractor.vhd" 2018/01/14.20:28:10 I.24
+EN work/FullSubtractor 1515942215 \
+      FL "E:/College/6th Sem/DSD LAB/FullSubtractorVHDL/FullSubtractor.vhd" \
+      PB ieee/std_logic_1164 1131108373 PB ieee/std_logic_arith 1131108375 \
+      PB ieee/STD_LOGIC_UNSIGNED 1131108379
+AR work/FullSubtractor/Behavioral 1515942216 \
+      FL "E:/College/6th Sem/DSD LAB/FullSubtractorVHDL/FullSubtractor.vhd" \
+      EN work/FullSubtractor 1515942215

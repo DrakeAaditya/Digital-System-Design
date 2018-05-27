@@ -1,0 +1,43 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 8.1i
+//  \   \         Application : sch2verilog
+//  /   /         Filename : HalfSubtractor.vf
+// /___/   /\     Timestamp : 01/14/2018 15:59:02
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: C:\Xilinx\bin\nt\sch2verilog.exe -intstyle ise -family aspartan3 -w "E:/College/6th Sem/DSD LAB/HalfSubtractor/HalfSubtractor.sch" HalfSubtractor.vf
+//Design Name: HalfSubtractor
+//Device: aspartan3
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module HalfSubtractor(A, 
+                      B, 
+                      BORROW, 
+                      DIFFERENCE);
+
+    input A;
+    input B;
+   output BORROW;
+   output DIFFERENCE;
+   
+   wire XLXN_1;
+   
+   XOR2 XLXI_1 (.I0(B), 
+                .I1(A), 
+                .O(DIFFERENCE));
+   AND2 XLXI_2 (.I0(XLXN_1), 
+                .I1(B), 
+                .O(BORROW));
+   INV XLXI_3 (.I(A), 
+               .O(XLXN_1));
+endmodule

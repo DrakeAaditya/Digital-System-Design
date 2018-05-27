@@ -1,0 +1,1 @@
+xst -ise "E:/College/6th Sem/DSD/DSD LAB/FullAdderVHDL/FullAdderVHDL" -intstyle ise -ifn VHDLFullAdder.xst -ofn VHDLFullAdder.syr

@@ -1,0 +1,4 @@
+EN jkwave NULL "E:/College/6th Sem/DSD/DSD LAB/JKFlipFlop/JKWave.vhw" sub00/vhpl02 1521648923
+EN jk NULL "E:/College/6th Sem/DSD/DSD LAB/JKFlipFlop/JK.vhd" sub00/vhpl00 1521648921
+AR jkwave testbench_arch "E:/College/6th Sem/DSD/DSD LAB/JKFlipFlop/JKWave.vhw" sub00/vhpl03 1521648924
+AR jk behavioral "E:/College/6th Sem/DSD/DSD LAB/JKFlipFlop/JK.vhd" sub00/vhpl01 1521648922

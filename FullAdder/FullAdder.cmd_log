@@ -1,0 +1,9 @@
+sch2verilog -intstyle ise -family aspartan3   -w "E:/College/6th Sem/DSD LAB/FullAdder/FullAdder.sch" FullAdder.vf
+xst -ise "E:/College/6th Sem/DSD LAB/FullAdder/FullAdder" -intstyle ise -ifn FullAdder.xst -ofn FullAdder.syr
+sch2verilog -intstyle ise -family aspartan3   -w "E:/College/6th Sem/DSD LAB/FullAdder/FullAdder.sch" FullAdder.vf
+xst -ise "E:/College/6th Sem/DSD LAB/FullAdder/FullAdder" -intstyle ise -ifn FullAdder.xst -ofn FullAdder.syr
+xst -ise "E:/College/6th Sem/DSD LAB/FullAdder/FullAdder" -intstyle ise -ifn FullAdder.xst -ofn FullAdder.syr
+sch2verilog -intstyle ise -family aspartan3   -w "E:/College/6th Sem/DSD LAB/FullAdder/FullAdder.sch" FullAdder.vf
+xst -ise "E:/College/6th Sem/DSD LAB/FullAdder/FullAdder" -intstyle ise -ifn FullAdder.xst -ofn FullAdder.syr
+sch2verilog -intstyle ise -family aspartan3   -w "E:/College/6th Sem/DSD LAB/FullAdder/FullAdder.sch" FullAdder.vf
+xst -ise "E:/College/6th Sem/DSD LAB/FullAdder/FullAdder" -intstyle ise -ifn FullAdder.xst -ofn FullAdder.syr

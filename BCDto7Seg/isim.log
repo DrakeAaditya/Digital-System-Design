@@ -1,0 +1,30 @@
+ command line:
+   ./Seg_Wave_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  50248
+
+Thu Mar 29 09:04:03 2018
+
+Total Line Count = 737
+
+ Elaboration time 0.015625 sec.
+
+ Estimate current memory usage 151.99 Meg. 
+
+ Total signals 4
+ Total nets 11
+ Total signal drivers 2
+ Total blocks 7
+ Total primitive blocks 1
+ Total processes 2
+ntrace select -o on -n /Seg_Wave/i 
+ntrace select -o on -n /Seg_Wave/i 
+ntrace select -o on -n /Seg_Wave/i 
+ntrace select -o on -n /Seg_Wave/i 
+ntrace select -o on -n /Seg_Wave/i 
+ntrace select -o on -n /Seg_Wave/y 
+ntrace start 
+run all 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.

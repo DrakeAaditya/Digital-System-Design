@@ -1,0 +1,37 @@
+ command line:
+   ./WaveEncoder_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  55051
+
+Tue Feb 06 17:18:33 2018
+
+Total Line Count = 728
+
+ Elaboration time 0.015625 sec.
+
+ Estimate current memory usage 150.27 Meg. 
+
+ Total signals 4
+ Total nets 11
+ Total signal drivers 4
+ Total blocks 7
+ Total primitive blocks 1
+ Total processes 4
+ntrace select -o on -n /WaveEncoder/i 
+ntrace select -o on -n /WaveEncoder/i 
+ntrace select -o on -n /WaveEncoder/i 
+ntrace select -o on -n /WaveEncoder/i 
+ntrace select -o on -n /WaveEncoder/i 
+ntrace select -o on -n /WaveEncoder/i 
+ntrace select -o on -n /WaveEncoder/i 
+ntrace select -o on -n /WaveEncoder/i 
+ntrace select -o on -n /WaveEncoder/i 
+ntrace select -o on -n /WaveEncoder/y 
+ntrace select -o on -n /WaveEncoder/y 
+ntrace select -o on -n /WaveEncoder/y 
+ntrace select -o on -n /WaveEncoder/y 
+ntrace start 
+run all 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.

@@ -1,0 +1,40 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : HalfAdder.vf
+// /___/   /\     Timestamp : 01/18/2018 09:11:33
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family aspartan3 -verilog "F:/College/6th Sem/DSD/DSD LAB/HalfAdder/HalfAdder.vf" -w "F:/College/6th Sem/DSD/DSD LAB/HalfAdder/HalfAdder.sch"
+//Design Name: HalfAdder
+//Device: aspartan3
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module HalfAdder(A, 
+                 B, 
+                 CARRY, 
+                 SUM);
+
+    input A;
+    input B;
+   output CARRY;
+   output SUM;
+   
+   
+   XOR2  XLXI_1 (.I0(B), 
+                .I1(A), 
+                .O(SUM));
+   AND2  XLXI_2 (.I0(B), 
+                .I1(A), 
+                .O(CARRY));
+endmodule

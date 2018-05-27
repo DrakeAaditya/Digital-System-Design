@@ -1,0 +1,1 @@
+xst -ise "E:/College/6th Sem/DSD/DSD LAB/MultiplexerBehavioral/MultiplexerBehavioral" -intstyle ise -ifn Multiplexer.xst -ofn Multiplexer.syr

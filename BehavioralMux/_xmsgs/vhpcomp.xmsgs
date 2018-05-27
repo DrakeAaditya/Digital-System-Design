@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLParsers" num="3215" delta="unknown" >Unit <arg fmt="%s" index="1">work/beh12</arg> is now defined in a different file: was <arg fmt="%s" index="2">C:/Xilinx/BHAI/SBU/SBU/SBU/behmux/beh12.ant</arg>, now is <arg fmt="%s" index="3">C:/Xilinx/BHAI/SBU/SBU/SBU/behmux/beh12.vhw</arg>
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3215" delta="unknown" >Unit <arg fmt="%s" index="1">work/beh12/testbench_arch</arg> is now defined in a different file: was <arg fmt="%s" index="2">C:/Xilinx/BHAI/SBU/SBU/SBU/behmux/beh12.ant</arg>, now is <arg fmt="%s" index="3">C:/Xilinx/BHAI/SBU/SBU/SBU/behmux/beh12.vhw</arg>
+</msg>
+
+</messages>

@@ -1,0 +1,4 @@
+AR wave6down testbench_arch "E:/College/6th Sem/DSD/DSD LAB/Mod6DownCounter/Wave6down.vhw" sub00/vhpl03 1525319192
+AR mod6downcounter behavioral "E:/College/6th Sem/DSD/DSD LAB/Mod6DownCounter/Mod6DownCounter.vhd" sub00/vhpl01 1525319090
+EN mod6downcounter NULL "E:/College/6th Sem/DSD/DSD LAB/Mod6DownCounter/Mod6DownCounter.vhd" sub00/vhpl00 1525319089
+EN wave6down NULL "E:/College/6th Sem/DSD/DSD LAB/Mod6DownCounter/Wave6down.vhw" sub00/vhpl02 1525319191

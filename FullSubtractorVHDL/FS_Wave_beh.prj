@@ -1,0 +1,2 @@
+vhdl work "FullSubtractor.vhd"
+vhdl work "FS_Wave.vhw"

@@ -1,0 +1,30 @@
+ command line:
+   ./HS_Wave_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  50220
+
+Sun Jan 14 16:12:33 2018
+
+Total Line Count = 75
+
+ Elaboration time 0 sec.
+
+ Estimate current memory usage 108.315 Meg. 
+
+ Total signals 23
+ Total nets 13
+ Total signal drivers 8
+ Total blocks 8
+ Total primitive blocks 6
+ Total processes 12
+ntrace select -o on -n /HS_Wave/A 
+ntrace select -o on -n /HS_Wave/B 
+ntrace select -o on -n /HS_Wave/DIFFERENCE 
+ntrace select -o on -n /HS_Wave/BORROW 
+ntrace select -o on -n /HS_Wave/TX_FILE 
+ntrace select -o on -n /HS_Wave/TX_ERROR 
+ntrace start 
+run all 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.

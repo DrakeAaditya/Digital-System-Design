@@ -1,0 +1,1 @@
+xst -ise "E:/College/6th Sem/DSD/DSD LAB/DFlipFlop/DFlipFlop" -intstyle ise -ifn D.xst -ofn D.syr

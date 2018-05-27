@@ -1,0 +1,4 @@
+xst -ise "E:/College/6th Sem/DSD/DSD LAB/Mod6DownCounter/Mod6DownCounter" -intstyle ise -ifn Mod6DownCounter.xst -ofn Mod6DownCounter.syr
+xst -ise "E:/College/6th Sem/DSD/DSD LAB/Mod6DownCounter/Mod6DownCounter" -intstyle ise -ifn Mod6DownCounter.xst -ofn Mod6DownCounter.syr
+xst -ise "E:/College/6th Sem/DSD/DSD LAB/Mod6DownCounter/Mod6DownCounter" -intstyle ise -ifn Mod6DownCounter.xst -ofn Mod6DownCounter.syr
+xst -ise "E:/College/6th Sem/DSD/DSD LAB/Mod6DownCounter/Mod6DownCounter" -intstyle ise -ifn Mod6DownCounter.xst -ofn Mod6DownCounter.syr

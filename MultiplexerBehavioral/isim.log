@@ -1,0 +1,25 @@
+ command line:
+   ./MuxWave_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  52459
+
+Tue Jan 30 19:32:28 2018
+
+Total Line Count = 749
+
+ Elaboration time 0.015625 sec.
+
+ Estimate current memory usage 150.417 Meg. 
+
+ Total signals 14
+ Total nets 7
+ Total signal drivers 7
+ Total blocks 7
+ Total primitive blocks 1
+ Total processes 2
+ntrace select -o on -m / -l this 
+ntrace start 
+run all 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.

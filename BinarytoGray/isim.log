@@ -1,0 +1,25 @@
+ command line:
+   ./BGWave_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  50863
+
+Thu Feb 08 08:43:05 2018
+
+Total Line Count = 730
+
+ Elaboration time 0.015625 sec.
+
+ Estimate current memory usage 149.561 Meg. 
+
+ Total signals 4
+ Total nets 6
+ Total signal drivers 4
+ Total blocks 7
+ Total primitive blocks 1
+ Total processes 4
+ntrace select -o on -m / -l this 
+ntrace start 
+run all 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.

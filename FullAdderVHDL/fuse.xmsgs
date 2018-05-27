@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="HDLCompiler" num="488" delta="unknown" >"F:/College/6th Sem/DSD/DSD LAB/FullAdderVHDL/FA_Wave.vhd" Line 64: Illegal identifier : <arg fmt="%s" index="1">_period</arg>
+</msg>
+
+<msg type="error" file="HDLCompiler" num="488" delta="unknown" >"F:/College/6th Sem/DSD/DSD LAB/FullAdderVHDL/FA_Wave.vhd" Line 78: Illegal identifier : <arg fmt="%s" index="1">_process</arg>
+</msg>
+
+<msg type="error" file="HDLCompiler" num="488" delta="unknown" >"F:/College/6th Sem/DSD/DSD LAB/FullAdderVHDL/FA_Wave.vhd" Line 81: Illegal identifier : <arg fmt="%s" index="1">_period</arg>
+</msg>
+
+<msg type="error" file="HDLCompiler" num="488" delta="unknown" >"F:/College/6th Sem/DSD/DSD LAB/FullAdderVHDL/FA_Wave.vhd" Line 83: Illegal identifier : <arg fmt="%s" index="1">_period</arg>
+</msg>
+
+<msg type="error" file="HDLCompiler" num="488" delta="unknown" >"F:/College/6th Sem/DSD/DSD LAB/FullAdderVHDL/FA_Wave.vhd" Line 93: Illegal identifier : <arg fmt="%s" index="1">_period</arg>
+</msg>
+
+<msg type="error" file="HDLCompiler" num="806" delta="unknown" >"F:/College/6th Sem/DSD/DSD LAB/FullAdderVHDL/FA_Wave.vhd" Line 64: Syntax error near &quot;<arg fmt="%s" index="1">&lt;</arg>&quot;.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="488" delta="unknown" >"F:/College/6th Sem/DSD/DSD LAB/FullAdderVHDL/FA_Wave.vhd" Line 64: Illegal identifier : <arg fmt="%s" index="1">_period</arg>
+</msg>
+
+<msg type="error" file="HDLCompiler" num="806" delta="unknown" >"F:/College/6th Sem/DSD/DSD LAB/FullAdderVHDL/FA_Wave.vhd" Line 78: Syntax error near &quot;<arg fmt="%s" index="1">&lt;</arg>&quot;.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="488" delta="unknown" >"F:/College/6th Sem/DSD/DSD LAB/FullAdderVHDL/FA_Wave.vhd" Line 78: Illegal identifier : <arg fmt="%s" index="1">_process</arg>
+</msg>
+
+<msg type="error" file="HDLCompiler" num="806" delta="unknown" >"F:/College/6th Sem/DSD/DSD LAB/FullAdderVHDL/FA_Wave.vhd" Line 80: Syntax error near &quot;<arg fmt="%s" index="1">&lt;</arg>&quot;.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="488" delta="unknown" >"F:/College/6th Sem/DSD/DSD LAB/FullAdderVHDL/FA_Wave.vhd" Line 81: Illegal identifier : <arg fmt="%s" index="1">_period</arg>
+</msg>
+
+<msg type="error" file="HDLCompiler" num="488" delta="unknown" >"F:/College/6th Sem/DSD/DSD LAB/FullAdderVHDL/FA_Wave.vhd" Line 83: Illegal identifier : <arg fmt="%s" index="1">_period</arg>
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1369" delta="unknown" >"F:/College/6th Sem/DSD/DSD LAB/FullAdderVHDL/FA_Wave.vhd" Line 78: Possible infinite loop; process does not have a wait statement
+</msg>
+
+<msg type="error" file="HDLCompiler" num="806" delta="unknown" >"F:/College/6th Sem/DSD/DSD LAB/FullAdderVHDL/FA_Wave.vhd" Line 93: Syntax error near &quot;<arg fmt="%s" index="1">&lt;</arg>&quot;.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="488" delta="unknown" >"F:/College/6th Sem/DSD/DSD LAB/FullAdderVHDL/FA_Wave.vhd" Line 93: Illegal identifier : <arg fmt="%s" index="1">_period</arg>
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1369" delta="unknown" >"F:/College/6th Sem/DSD/DSD LAB/FullAdderVHDL/FA_Wave.vhd" Line 88: Possible infinite loop; process does not have a wait statement
+</msg>
+
+<msg type="error" file="HDLCompiler" num="854" delta="unknown" >"F:/College/6th Sem/DSD/DSD LAB/FullAdderVHDL/FA_Wave.vhd" Line 38: Unit &lt;<arg fmt="%s" index="1">behavior</arg>&gt; ignored due to previous errors.
+</msg>
+
+</messages>
+

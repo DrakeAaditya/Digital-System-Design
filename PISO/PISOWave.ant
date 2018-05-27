@@ -1,0 +1,129 @@
+--------------------------------------------------------------------------------
+-- Copyright (c) 1995-2003 Xilinx, Inc.
+-- All Right Reserved.
+--------------------------------------------------------------------------------
+--   ____  ____ 
+--  /   /\/   / 
+-- /___/  \  /    Vendor: Xilinx 
+-- \   \   \/     Version : 8.1i
+--  \   \         Application : ISE
+--  /   /         Filename : PISOWave.ant
+-- /___/   /\     Timestamp : Thu Apr 19 09:01:44 2018
+-- \   \  /  \ 
+--  \___\/\___\ 
+--
+--Command: 
+--Design Name: PISOWave
+--Device: Xilinx
+--
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+USE IEEE.STD_LOGIC_TEXTIO.ALL;
+USE STD.TEXTIO.ALL;
+
+ENTITY PISOWave IS
+END PISOWave;
+
+ARCHITECTURE testbench_arch OF PISOWave IS
+    FILE RESULTS: TEXT OPEN WRITE_MODE IS "E:\College\6th Sem\DSD\DSD LAB\PISO\PISOWave.ano";
+
+    COMPONENT PISO
+        PORT (
+            PIN : In std_logic_vector (3 DownTo 0);
+            CLK : In std_logic;
+            CLR : In std_logic;
+            PRE : In std_logic;
+            LOAD : In std_logic;
+            SOUT : Out std_logic
+        );
+    END COMPONENT;
+
+    SIGNAL PIN : std_logic_vector (3 DownTo 0) := "1000";
+    SIGNAL CLK : std_logic := '0';
+    SIGNAL CLR : std_logic := '1';
+    SIGNAL PRE : std_logic := '1';
+    SIGNAL LOAD : std_logic := '1';
+    SIGNAL SOUT : std_logic := '0';
+
+    SHARED VARIABLE TX_ERROR : INTEGER := 0;
+    SHARED VARIABLE TX_OUT : LINE;
+
+    constant PERIOD : time := 100 ns;
+    constant DUTY_CYCLE : real := 0.5;
+    constant OFFSET : time := 0 ns;
+
+    BEGIN
+        UUT : PISO
+        PORT MAP (
+            PIN => PIN,
+            CLK => CLK,
+            CLR => CLR,
+            PRE => PRE,
+            LOAD => LOAD,
+            SOUT => SOUT
+        );
+
+        PROCESS    -- clock process for CLK
+        BEGIN
+            WAIT for OFFSET;
+            CLOCK_LOOP : LOOP
+                CLK <= '0';
+                WAIT FOR (PERIOD - (PERIOD * DUTY_CYCLE));
+                CLK <= '1';
+                WAIT FOR (PERIOD * DUTY_CYCLE);
+            END LOOP CLOCK_LOOP;
+        END PROCESS;
+
+        PROCESS    -- Annotation process for CLK
+            VARIABLE TX_TIME : INTEGER := 0;
+
+            PROCEDURE ANNOTATE_SOUT(
+                TX_TIME : INTEGER
+            ) IS
+                VARIABLE TX_STR : String(1 to 4096);
+                VARIABLE TX_LOC : LINE;
+            BEGIN
+                STD.TEXTIO.write(TX_LOC, string'("Annotate["));
+                STD.TEXTIO.write(TX_LOC, TX_TIME);
+                STD.TEXTIO.write(TX_LOC, string'(", SOUT, "));
+                IEEE.STD_LOGIC_TEXTIO.write(TX_LOC, SOUT);
+                STD.TEXTIO.write(TX_LOC, string'("]"));
+                TX_STR(TX_LOC.all'range) := TX_LOC.all;
+                STD.TEXTIO.writeline(RESULTS, TX_LOC);
+                STD.TEXTIO.Deallocate(TX_LOC);
+            END;
+        BEGIN
+            WAIT for 1 fs;
+            ANNOTATE_SOUT(0);
+            WAIT for OFFSET;
+            TX_TIME := TX_TIME + 0;
+            ANNO_LOOP : LOOP
+                --Rising Edge
+                WAIT for 65 ns;
+                TX_TIME := TX_TIME + 65;
+                ANNOTATE_SOUT(TX_TIME);
+                WAIT for 35 ns;
+                TX_TIME := TX_TIME + 35;
+            END LOOP ANNO_LOOP;
+        END PROCESS;
+
+        PROCESS
+            BEGIN
+                -- -------------  Current Time:  135ns
+                WAIT FOR 135 ns;
+                LOAD <= '0';
+                -- -------------------------------------
+                WAIT FOR 965 ns;
+
+                STD.TEXTIO.write(TX_OUT, string'("Total[]"));
+                STD.TEXTIO.writeline(RESULTS, TX_OUT);
+                ASSERT (FALSE) REPORT
+                    "Success! Simulation for annotation completed"
+                    SEVERITY FAILURE;
+            END PROCESS;
+
+    END testbench_arch;
+

@@ -1,0 +1,29 @@
+ command line:
+   ./DecadeWave_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  51059
+
+Thu Apr 12 09:39:24 2018
+
+Total Line Count = 750
+
+ Elaboration time 0.015625 sec.
+
+ Estimate current memory usage 151.912 Meg. 
+
+ Total signals 10
+ Total nets 8
+ Total signal drivers 4
+ Total blocks 7
+ Total primitive blocks 1
+ Total processes 3
+ntrace select -o on -n /DecadeWave/pre 
+ntrace select -o on -n /DecadeWave/clk 
+ntrace select -o on -n /DecadeWave/clr 
+ntrace select -o on -n /DecadeWave/a 
+ntrace select -o on -n /DecadeWave/y 
+ntrace start 
+run all 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.

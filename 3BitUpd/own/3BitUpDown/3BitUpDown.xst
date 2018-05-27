@@ -1,0 +1,4 @@
+set -tmpdir ./xst/projnav.tmp
+elaborate
+-ifn 3BitUpDown.prj
+-ifmt mixed

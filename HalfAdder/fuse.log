@@ -1,0 +1,19 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o E:/College/6th Sem/DSD/DSD LAB/HalfAdder/HalfAdder_HalfAdder_sch_tb_isim_beh.exe -prj E:/College/6th Sem/DSD/DSD LAB/HalfAdder/HalfAdder_HalfAdder_sch_tb_beh.prj work.HalfAdder_HalfAdder_sch_tb 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "E:/College/6th Sem/DSD/DSD LAB/HalfAdder/HA_Wave.vhd" into library work
+Starting static elaboration
+WARNING:HDLCompiler:89 - "E:/College/6th Sem/DSD/DSD LAB/HalfAdder/HA_Wave.vhd" Line 37: <halfadder> remains a black-box since it has no binding entity.
+Completed static elaboration
+Fuse Memory Usage: 233348 KB
+Fuse CPU Usage: 578 ms
+WARNING:Simulator:648 - "E:/College/6th Sem/DSD/DSD LAB/HalfAdder/HA_Wave.vhd" Line 37. Instance halfadder is unbound
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling architecture behavioral of entity halfadder_halfadder_sch_tb
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+ERROR:Simulator:861 - Failed to link the design

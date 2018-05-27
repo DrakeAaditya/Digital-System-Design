@@ -1,0 +1,25 @@
+ command line:
+   ./muxtb_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  49493
+
+Thu Jan 25 09:03:41 2018
+
+Total Line Count = 735
+
+ Elaboration time 0.0312 sec.
+
+ Estimate current memory usage 56.5412 Meg. 
+
+ Total signals 6
+ Total nets 7
+ Total signal drivers 3
+ Total blocks 7
+ Total primitive blocks 1
+ Total processes 2
+ntrace select -o on -m / -l this 
+ntrace start 
+run all 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.

@@ -1,0 +1,2 @@
+xst -ise "E:/College/6th Sem/DSD/DSD LAB/PriorityEncoder/PriorityEncoder" -intstyle ise -ifn Encoder.xst -ofn Encoder.syr
+xst -ise "E:/College/6th Sem/DSD/DSD LAB/PriorityEncoder/PriorityEncoder" -intstyle ise -ifn Encoder.xst -ofn Encoder.syr

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "F:/College/6th Sem/DSD/DSD LAB/FullAdderVHDL/FA_Wave_isim_beh.exe" -prj "F:/College/6th Sem/DSD/DSD LAB/FullAdderVHDL/FA_Wave_beh.prj" "work.FA_Wave" 

@@ -1,0 +1,6 @@
+AR decoder func "E:/College/6th Sem/DSD/DSD LAB/Decoder/Decoder.vhd" sub00/vhpl05 1517930396
+EN notgate NULL "E:/College/6th Sem/DSD/DSD LAB/Decoder/notGate.vhd" sub00/vhpl00 1517930330
+AR notgate behavioral "E:/College/6th Sem/DSD/DSD LAB/Decoder/notGate.vhd" sub00/vhpl01 1517930331
+EN andgate NULL "E:/College/6th Sem/DSD/DSD LAB/Decoder/andGate.vhd" sub00/vhpl02 1517930332
+AR andgate behavioral "E:/College/6th Sem/DSD/DSD LAB/Decoder/andGate.vhd" sub00/vhpl03 1517930333
+EN decoder NULL "E:/College/6th Sem/DSD/DSD LAB/Decoder/Decoder.vhd" sub00/vhpl04 1517930395

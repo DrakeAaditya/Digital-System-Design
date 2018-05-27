@@ -1,0 +1,1 @@
+xst -ise "C:/Xilinx/BHAI/SBU/SBU/SBU/behmux/behmux.ise" -intstyle ise -ifn beh41.xst -ofn beh41.syr

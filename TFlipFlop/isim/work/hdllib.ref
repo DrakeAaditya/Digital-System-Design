@@ -1,0 +1,4 @@
+AR twave testbench_arch "E:/College/6th Sem/DSD/DSD LAB/TFlipFlop/TWave.vhw" sub00/vhpl03 1521690568
+AR t behavioral "E:/College/6th Sem/DSD/DSD LAB/TFlipFlop/T.vhd" sub00/vhpl01 1521690566
+EN t NULL "E:/College/6th Sem/DSD/DSD LAB/TFlipFlop/T.vhd" sub00/vhpl00 1521690565
+EN twave NULL "E:/College/6th Sem/DSD/DSD LAB/TFlipFlop/TWave.vhw" sub00/vhpl02 1521690567

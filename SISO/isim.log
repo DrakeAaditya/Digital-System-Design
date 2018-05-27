@@ -1,0 +1,29 @@
+ command line:
+   ./SISOwave_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  50712
+
+Thu Apr 05 08:59:46 2018
+
+Total Line Count = 754
+
+ Elaboration time 0.015625 sec.
+
+ Estimate current memory usage 152.83 Meg. 
+
+ Total signals 10
+ Total nets 5
+ Total signal drivers 5
+ Total blocks 7
+ Total primitive blocks 1
+ Total processes 3
+ntrace select -o on -n /SISOwave/pre 
+ntrace select -o on -n /SISOwave/clr 
+ntrace select -o on -n /SISOwave/clk 
+ntrace select -o on -n /SISOwave/sin 
+ntrace select -o on -n /SISOwave/sout 
+ntrace start 
+run all 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.

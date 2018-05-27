@@ -1,0 +1,4 @@
+xst -ise "E:/College/6th Sem/DSD LAB/FullSubtractorVHDL/FullSubtractorVHDL" -intstyle ise -ifn FullSubtractor.xst -ofn FullSubtractor.syr
+xst -ise "E:/College/6th Sem/DSD LAB/FullSubtractorVHDL/FullSubtractorVHDL" -intstyle ise -ifn FullSubtractor.xst -ofn FullSubtractor.syr
+xst -ise "E:/College/6th Sem/DSD LAB/FullSubtractorVHDL/FullSubtractorVHDL" -intstyle ise -ifn FullSubtractor.xst -ofn FullSubtractor.syr
+xst -ise "E:/College/6th Sem/DSD LAB/FullSubtractorVHDL/FullSubtractorVHDL" -intstyle ise -ifn FullSubtractor.xst -ofn FullSubtractor.syr

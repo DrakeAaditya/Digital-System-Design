@@ -1,0 +1,1 @@
+xst -ise "E:/College/6th Sem/DSD/DSD LAB/SISO/SISO" -intstyle ise -ifn SISO.xst -ofn SISO.syr

@@ -1,0 +1,2 @@
+vhdl isim_temp "VHDLFullAdder.vhd"
+vhdl isim_temp "VHDLTestBench.vhd"

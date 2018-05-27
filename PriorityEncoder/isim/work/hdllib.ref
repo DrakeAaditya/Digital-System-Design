@@ -1,0 +1,4 @@
+AR waveencoder testbench_arch "E:/College/6th Sem/DSD/DSD LAB/PriorityEncoder/WaveEncoder.vhw" sub00/vhpl03 1517457644
+EN encoder NULL "E:/College/6th Sem/DSD/DSD LAB/PriorityEncoder/Encoder.vhd" sub00/vhpl00 1517457641
+AR encoder behavioral "E:/College/6th Sem/DSD/DSD LAB/PriorityEncoder/Encoder.vhd" sub00/vhpl01 1517457642
+EN waveencoder NULL "E:/College/6th Sem/DSD/DSD LAB/PriorityEncoder/WaveEncoder.vhw" sub00/vhpl02 1517457643

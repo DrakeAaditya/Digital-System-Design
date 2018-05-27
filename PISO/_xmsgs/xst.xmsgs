@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="Xst" num="1749" delta="unknown" >&quot;<arg fmt="%s" index="1">E:/College/6th Sem/DSD/DSD LAB/PISO/PISO.vhd</arg>&quot; line <arg fmt="%d" index="2">48</arg>: <arg fmt="%s" index="3">report</arg>: <arg fmt="%s" index="4">illegal</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1608" delta="unknown" >Relative priorities of control signals on register &lt;<arg fmt="%s" index="1">temp</arg>&gt; differ from those commonly found in the selected device family. This will result in additional logic around the register.
+</msg>
+
+</messages>

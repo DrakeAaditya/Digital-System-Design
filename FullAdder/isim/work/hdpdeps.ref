@@ -1,0 +1,9 @@
+V3 10
+FL "E:/College/6th Sem/DSD LAB/FullAdder/FullAdder.vf" 2018/01/14.15:30:58 I.24
+MO work/FullAdder       FL "E:/College/6th Sem/DSD LAB/FullAdder/FullAdder.vf" \
+      MI AND2           MI OR2            MI XOR2
+FL $XILINX/verilog/src/glbl.v 2005/11/16.16:04:44 I.24
+MO work/glbl            FL $XILINX/verilog/src/glbl.v
+FL "E:/College/6th Sem/DSD LAB/FullAdder/FA_Wave.tfw" 2018/01/14.15:36:10 I.24
+MO work/FA_Wave         FL "E:/College/6th Sem/DSD LAB/FullAdder/FA_Wave.tfw" \
+      MI FullAdder

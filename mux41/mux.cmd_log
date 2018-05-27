@@ -1,0 +1,1 @@
+xst -ise "C:/Xilinx/BHAI/SBU/SBU/SBU/mux41/mux41.ise" -intstyle ise -ifn mux.xst -ofn mux.syr

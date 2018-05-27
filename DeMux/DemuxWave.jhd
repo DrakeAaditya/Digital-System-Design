@@ -1,0 +1,3 @@
+MODULE DemuxWave
+SUBMODULE Structural
+INSTANCE UUT

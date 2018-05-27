@@ -1,0 +1,2 @@
+xst -ise "E:/College/6th Sem/DSD/DSD LAB/TFlipFlop/TFlipFlop" -intstyle ise -ifn T.xst -ofn T.syr
+xst -ise "E:/College/6th Sem/DSD/DSD LAB/TFlipFlop/TFlipFlop" -intstyle ise -ifn T.xst -ofn T.syr

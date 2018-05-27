@@ -1,0 +1,3 @@
+sch2verilog -intstyle ise -family aspartan3   -w "E:/College/6th Sem/DSD LAB/HalfAdder/HalfAdder.sch" HalfAdder.vf
+xst -ise "E:/College/6th Sem/DSD LAB/HalfAdder/HalfAdder" -intstyle ise -ifn HalfAdder.xst -ofn HalfAdder.syr
+sch2verilog -intstyle ise -family aspartan3   -w "E:/College/6th Sem/DSD LAB/HalfAdder/HalfAdder.sch" HalfAdder.vf

@@ -1,0 +1,1 @@
+xst -ise "E:/College/6th Sem/DSD/DSD LAB/3BitUpd/own/DecadeCounter/DecadeCounter" -intstyle ise -ifn Decade.xst -ofn Decade.syr

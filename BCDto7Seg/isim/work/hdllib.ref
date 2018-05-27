@@ -1,0 +1,6 @@
+AR bcd7seg behavioral "E:/College/6th Sem/DSD/DSD LAB/BCDto7Seg/BCD7Seg.vhd" sub00/vhpl01 1522294390
+AR seg_wave testbench_arch "E:/College/6th Sem/DSD/DSD LAB/BCDto7Seg/Seg_Wave.vhw" sub00/vhpl05 1522294521
+AR segwave testbench_arch "E:/College/6th Sem/DSD/DSD LAB/BCDto7Seg/SegWave.vhw" sub00/vhpl03 1522294267
+EN segwave NULL "E:/College/6th Sem/DSD/DSD LAB/BCDto7Seg/SegWave.vhw" sub00/vhpl02 1522294266
+EN bcd7seg NULL "E:/College/6th Sem/DSD/DSD LAB/BCDto7Seg/BCD7Seg.vhd" sub00/vhpl00 1522294389
+EN seg_wave NULL "E:/College/6th Sem/DSD/DSD LAB/BCDto7Seg/Seg_Wave.vhw" sub00/vhpl04 1522294520

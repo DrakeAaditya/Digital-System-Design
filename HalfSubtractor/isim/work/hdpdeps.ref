@@ -1,0 +1,10 @@
+V3 10
+FL "E:/College/6th Sem/DSD LAB/HalfSubtractor/HS_Wave.tfw" 2018/01/14.16:12:19 I.24
+MO work/HS_Wave         FL "E:/College/6th Sem/DSD LAB/HalfSubtractor/HS_Wave.tfw" \
+      MI HalfSubtractor
+FL "E:/College/6th Sem/DSD LAB/HalfSubtractor/HalfSubtractor.vf" 2018/01/14.15:59:02 I.24
+MO work/HalfSubtractor \
+      FL "E:/College/6th Sem/DSD LAB/HalfSubtractor/HalfSubtractor.vf" MI AND2 \
+      MI INV            MI XOR2
+FL $XILINX/verilog/src/glbl.v 2005/11/16.16:04:44 I.24
+MO work/glbl            FL $XILINX/verilog/src/glbl.v

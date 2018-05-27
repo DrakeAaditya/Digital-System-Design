@@ -1,0 +1,29 @@
+ command line:
+   ./TWave_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  50648
+
+Thu Mar 22 09:19:29 2018
+
+Total Line Count = 752
+
+ Elaboration time 0.015625 sec.
+
+ Estimate current memory usage 152.781 Meg. 
+
+ Total signals 10
+ Total nets 5
+ Total signal drivers 5
+ Total blocks 7
+ Total primitive blocks 1
+ Total processes 3
+ntrace select -o on -n /TWave/clk 
+ntrace select -o on -n /TWave/tf 
+ntrace select -o on -n /TWave/pr 
+ntrace select -o on -n /TWave/cr 
+ntrace select -o on -n /TWave/q 
+ntrace start 
+run all 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.

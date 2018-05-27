@@ -1,0 +1,59 @@
+ command line:
+   ./MuxDataWave_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  63221
+
+Sun Jan 28 19:12:06 2018
+
+Total Line Count = 748
+
+ Elaboration time 0.015625 sec.
+
+ Estimate current memory usage 149.946 Meg. 
+
+ Total signals 14
+ Total nets 7
+ Total signal drivers 6
+ Total blocks 7
+ Total primitive blocks 1
+ Total processes 2
+ntrace select -o on -n /MuxDataWave/a 
+ntrace select -o on -n /MuxDataWave/b 
+ntrace select -o on -n /MuxDataWave/c 
+ntrace select -o on -n /MuxDataWave/d 
+ntrace select -o on -n /MuxDataWave/s0 
+ntrace select -o on -n /MuxDataWave/s1 
+ntrace select -o on -n /MuxDataWave/y 
+ntrace start 
+run all 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+run all 
+INFO:Simulator:30 - Simulator is stopped.
+run all 
+INFO:Simulator:30 - Simulator is stopped.
+run all 
+INFO:Simulator:30 - Simulator is stopped.
+run all 
+INFO:Simulator:30 - Simulator is stopped.
+run all 
+INFO:Simulator:30 - Simulator is stopped.
+run all 
+INFO:Simulator:30 - Simulator is stopped.
+run all 
+INFO:Simulator:30 - Simulator is stopped.
+run 100 ns 
+INFO:Simulator:30 - Simulator is stopped.
+run all 
+INFO:Simulator:30 - Simulator is stopped.
+run all 
+INFO:Simulator:30 - Simulator is stopped.
+run all 
+INFO:Simulator:30 - Simulator is stopped.
+run all 
+INFO:Simulator:30 - Simulator is stopped.
+step 
+INFO:Simulator:30 - Simulator is stopped.
+run all 
+INFO:Simulator:30 - Simulator is stopped.

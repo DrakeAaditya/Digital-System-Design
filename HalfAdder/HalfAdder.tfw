@@ -1,0 +1,93 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2003 Xilinx, Inc.
+// All Right Reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 8.1i
+//  \   \         Application : ISE
+//  /   /         Filename : HalfAdder.tfw
+// /___/   /\     Timestamp : Sun Jan 14 13:11:10 2018
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: 
+//Design Name: HalfAdder
+//Device: Xilinx
+//
+`timescale 1ns/1ps
+
+module HalfAdder;
+    reg A = 1'b0;
+    reg B = 1'b0;
+    wire CARRY;
+    wire SUM;
+
+
+    HalfAdder UUT (
+        .A(A),
+        .B(B),
+        .CARRY(CARRY),
+        .SUM(SUM));
+
+    integer TX_FILE = 0;
+    integer TX_ERROR = 0;
+    
+    initial begin  // Open the results file...
+        TX_FILE = $fopen("results.txt");
+        #1000 // Final time:  1000 ns
+        if (TX_ERROR == 0) begin
+            $display("No errors or warnings.");
+            $fdisplay(TX_FILE, "No errors or warnings.");
+        end else begin
+            $display("%d errors found in simulation.", TX_ERROR);
+            $fdisplay(TX_FILE, "%d errors found in simulation.", TX_ERROR);
+        end
+        $fclose(TX_FILE);
+        $stop;
+    end
+
+    initial begin
+        // -------------  Current Time:  100ns
+        #100;
+        A = 1'b1;
+        B = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  200ns
+        #100;
+        A = 1'b0;
+        B = 1'b0;
+        // -------------------------------------
+        // -------------  Current Time:  400ns
+        #200;
+        A = 1'b1;
+    end
+
+    task CHECK_CARRY;
+        input NEXT_CARRY;
+
+        #0 begin
+            if (NEXT_CARRY !== CARRY) begin
+                $display("Error at time=%dns CARRY=%b, expected=%b", $time, CARRY, NEXT_CARRY);
+                $fdisplay(TX_FILE, "Error at time=%dns CARRY=%b, expected=%b", $time, CARRY, NEXT_CARRY);
+                $fflush(TX_FILE);
+                TX_ERROR = TX_ERROR + 1;
+            end
+        end
+    endtask
+    task CHECK_SUM;
+        input NEXT_SUM;
+
+        #0 begin
+            if (NEXT_SUM !== SUM) begin
+                $display("Error at time=%dns SUM=%b, expected=%b", $time, SUM, NEXT_SUM);
+                $fdisplay(TX_FILE, "Error at time=%dns SUM=%b, expected=%b", $time, SUM, NEXT_SUM);
+                $fflush(TX_FILE);
+                TX_ERROR = TX_ERROR + 1;
+            end
+        end
+    endtask
+
+endmodule
+

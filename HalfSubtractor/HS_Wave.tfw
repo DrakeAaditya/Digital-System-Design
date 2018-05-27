@@ -1,0 +1,87 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2003 Xilinx, Inc.
+// All Right Reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 8.1i
+//  \   \         Application : ISE
+//  /   /         Filename : HS_Wave.tfw
+// /___/   /\     Timestamp : Sun Jan 14 16:12:19 2018
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: 
+//Design Name: HS_Wave
+//Device: Xilinx
+//
+`timescale 1ns/1ps
+
+module HS_Wave;
+    reg A = 1'b0;
+    reg B = 1'b0;
+    wire BORROW;
+    wire DIFFERENCE;
+
+
+    HalfSubtractor UUT (
+        .A(A),
+        .B(B),
+        .BORROW(BORROW),
+        .DIFFERENCE(DIFFERENCE));
+
+    integer TX_FILE = 0;
+    integer TX_ERROR = 0;
+    
+    initial begin  // Open the results file...
+        TX_FILE = $fopen("results.txt");
+        #1000 // Final time:  1000 ns
+        if (TX_ERROR == 0) begin
+            $display("No errors or warnings.");
+            $fdisplay(TX_FILE, "No errors or warnings.");
+        end else begin
+            $display("%d errors found in simulation.", TX_ERROR);
+            $fdisplay(TX_FILE, "%d errors found in simulation.", TX_ERROR);
+        end
+        $fclose(TX_FILE);
+        $stop;
+    end
+
+    initial begin
+        // -------------  Current Time:  200ns
+        #200;
+        B = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  1000ns
+        #800;
+        A = 1'b0;
+    end
+
+    task CHECK_BORROW;
+        input NEXT_BORROW;
+
+        #0 begin
+            if (NEXT_BORROW !== BORROW) begin
+                $display("Error at time=%dns BORROW=%b, expected=%b", $time, BORROW, NEXT_BORROW);
+                $fdisplay(TX_FILE, "Error at time=%dns BORROW=%b, expected=%b", $time, BORROW, NEXT_BORROW);
+                $fflush(TX_FILE);
+                TX_ERROR = TX_ERROR + 1;
+            end
+        end
+    endtask
+    task CHECK_DIFFERENCE;
+        input NEXT_DIFFERENCE;
+
+        #0 begin
+            if (NEXT_DIFFERENCE !== DIFFERENCE) begin
+                $display("Error at time=%dns DIFFERENCE=%b, expected=%b", $time, DIFFERENCE, NEXT_DIFFERENCE);
+                $fdisplay(TX_FILE, "Error at time=%dns DIFFERENCE=%b, expected=%b", $time, DIFFERENCE, NEXT_DIFFERENCE);
+                $fflush(TX_FILE);
+                TX_ERROR = TX_ERROR + 1;
+            end
+        end
+    endtask
+
+endmodule
+

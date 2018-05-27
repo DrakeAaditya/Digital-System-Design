@@ -1,0 +1,1 @@
+xst -ise "E:/College/6th Sem/DSD/DSD LAB/DeMux/DeMux" -intstyle ise -ifn Demux_4_to_1.xst -ofn Demux_4_to_1.syr

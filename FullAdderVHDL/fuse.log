@@ -1,0 +1,25 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -o F:/College/6th Sem/DSD/DSD LAB/FullAdderVHDL/FA_Wave_isim_beh.exe -prj F:/College/6th Sem/DSD/DSD LAB/FullAdderVHDL/FA_Wave_beh.prj work.FA_Wave 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+ERROR:HDLCompiler:488 - "F:/College/6th Sem/DSD/DSD LAB/FullAdderVHDL/FA_Wave.vhd" Line 64: Illegal identifier : _period
+ERROR:HDLCompiler:488 - "F:/College/6th Sem/DSD/DSD LAB/FullAdderVHDL/FA_Wave.vhd" Line 78: Illegal identifier : _process
+ERROR:HDLCompiler:488 - "F:/College/6th Sem/DSD/DSD LAB/FullAdderVHDL/FA_Wave.vhd" Line 81: Illegal identifier : _period
+ERROR:HDLCompiler:488 - "F:/College/6th Sem/DSD/DSD LAB/FullAdderVHDL/FA_Wave.vhd" Line 83: Illegal identifier : _period
+ERROR:HDLCompiler:488 - "F:/College/6th Sem/DSD/DSD LAB/FullAdderVHDL/FA_Wave.vhd" Line 93: Illegal identifier : _period
+Parsing VHDL file "F:/College/6th Sem/DSD/DSD LAB/FullAdderVHDL/FullAdder.vhd" into library work
+Parsing VHDL file "F:/College/6th Sem/DSD/DSD LAB/FullAdderVHDL/FA_Wave.vhd" into library work
+ERROR:HDLCompiler:806 - "F:/College/6th Sem/DSD/DSD LAB/FullAdderVHDL/FA_Wave.vhd" Line 64: Syntax error near "<".
+ERROR:HDLCompiler:488 - "F:/College/6th Sem/DSD/DSD LAB/FullAdderVHDL/FA_Wave.vhd" Line 64: Illegal identifier : _period
+ERROR:HDLCompiler:806 - "F:/College/6th Sem/DSD/DSD LAB/FullAdderVHDL/FA_Wave.vhd" Line 78: Syntax error near "<".
+ERROR:HDLCompiler:488 - "F:/College/6th Sem/DSD/DSD LAB/FullAdderVHDL/FA_Wave.vhd" Line 78: Illegal identifier : _process
+ERROR:HDLCompiler:806 - "F:/College/6th Sem/DSD/DSD LAB/FullAdderVHDL/FA_Wave.vhd" Line 80: Syntax error near "<".
+ERROR:HDLCompiler:488 - "F:/College/6th Sem/DSD/DSD LAB/FullAdderVHDL/FA_Wave.vhd" Line 81: Illegal identifier : _period
+ERROR:HDLCompiler:488 - "F:/College/6th Sem/DSD/DSD LAB/FullAdderVHDL/FA_Wave.vhd" Line 83: Illegal identifier : _period
+WARNING:HDLCompiler:1369 - "F:/College/6th Sem/DSD/DSD LAB/FullAdderVHDL/FA_Wave.vhd" Line 78: Possible infinite loop; process does not have a wait statement
+ERROR:HDLCompiler:806 - "F:/College/6th Sem/DSD/DSD LAB/FullAdderVHDL/FA_Wave.vhd" Line 93: Syntax error near "<".
+ERROR:HDLCompiler:488 - "F:/College/6th Sem/DSD/DSD LAB/FullAdderVHDL/FA_Wave.vhd" Line 93: Illegal identifier : _period
+WARNING:HDLCompiler:1369 - "F:/College/6th Sem/DSD/DSD LAB/FullAdderVHDL/FA_Wave.vhd" Line 88: Possible infinite loop; process does not have a wait statement
+ERROR:HDLCompiler:854 - "F:/College/6th Sem/DSD/DSD LAB/FullAdderVHDL/FA_Wave.vhd" Line 38: Unit <behavior> ignored due to previous errors.
+VHDL file F:/College/6th Sem/DSD/DSD LAB/FullAdderVHDL/FA_Wave.vhd ignored due to errors

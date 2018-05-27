@@ -1,0 +1,10 @@
+AR andgate func "E:/College/6th Sem/DSD/DSD LAB/DeMux/Structural.vhd" sub00/vhpl01 1517415553
+EN notgate NULL "E:/College/6th Sem/DSD/DSD LAB/DeMux/Structural.vhd" sub00/vhpl02 1517412652
+EN demuxwave NULL "E:/College/6th Sem/DSD/DSD LAB/DeMux/DemuxWave.vhw" sub00/vhpl06 1517415555
+AR notgate func "E:/College/6th Sem/DSD/DSD LAB/DeMux/Structural.vhd" sub00/vhpl03 1517415554
+AR demuxwave testbench_arch "E:/College/6th Sem/DSD/DSD LAB/DeMux/DemuxWave.vhw" sub00/vhpl07 1517415556
+AR structural func "E:/College/6th Sem/DSD/DSD LAB/DeMux/Structural.vhd" sub00/vhpl09 1517415552
+EN demux_4_to_1 NULL "E:/College/6th Sem/DSD/DSD LAB/DeMux/Structural.vhd" sub00/vhpl04 1517412654
+EN structural NULL "E:/College/6th Sem/DSD/DSD LAB/DeMux/Structural.vhd" sub00/vhpl08 1517415551
+EN andgate NULL "E:/College/6th Sem/DSD/DSD LAB/DeMux/Structural.vhd" sub00/vhpl00 1517412650
+AR demux_4_to_1 func "E:/College/6th Sem/DSD/DSD LAB/DeMux/Structural.vhd" sub00/vhpl05 1517412655

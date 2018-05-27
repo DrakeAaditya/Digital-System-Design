@@ -1,0 +1,4 @@
+AR updownwave testbench_arch "E:/College/6th Sem/DSD/DSD LAB/3BitUpd/own/3BitUpDown/UpDownWave.vhw" sub00/vhpl03 1523503733
+EN updowncounter NULL "E:/College/6th Sem/DSD/DSD LAB/3BitUpd/own/3BitUpDown/3BitUpDown.vhd" sub00/vhpl00 1523503469
+AR updowncounter behavioral "E:/College/6th Sem/DSD/DSD LAB/3BitUpd/own/3BitUpDown/3BitUpDown.vhd" sub00/vhpl01 1523503470
+EN updownwave NULL "E:/College/6th Sem/DSD/DSD LAB/3BitUpd/own/3BitUpDown/UpDownWave.vhw" sub00/vhpl02 1523503732

@@ -1,0 +1,32 @@
+Release 8.1i - xst I.24
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to ./xst/projnav.tmp
+CPU : 0.00 / 0.20 s | Elapsed : 0.00 / 1.00 s
+ 
+--> 
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "E:/College/6th Sem/DSD/DSD LAB/PT2/7seg.vhd" in Library work.
+Entity <seg7> compiled.
+ERROR:HDLParsers:3384 - "E:/College/6th Sem/DSD/DSD LAB/PT2/7seg.vhd" Line 41. Size mismatch.  String literal "1111110" is of size 7 but is expected to be of size 8.
+ERROR:HDLParsers:3384 - "E:/College/6th Sem/DSD/DSD LAB/PT2/7seg.vhd" Line 42. Size mismatch.  String literal "0001100" is of size 7 but is expected to be of size 8.
+ERROR:HDLParsers:3384 - "E:/College/6th Sem/DSD/DSD LAB/PT2/7seg.vhd" Line 43. Size mismatch.  String literal "0110111" is of size 7 but is expected to be of size 8.
+ERROR:HDLParsers:3384 - "E:/College/6th Sem/DSD/DSD LAB/PT2/7seg.vhd" Line 44. Size mismatch.  String literal "0011111" is of size 7 but is expected to be of size 8.
+ERROR:HDLParsers:3384 - "E:/College/6th Sem/DSD/DSD LAB/PT2/7seg.vhd" Line 45. Size mismatch.  String literal "1011101" is of size 7 but is expected to be of size 8.
+ERROR:HDLParsers:3384 - "E:/College/6th Sem/DSD/DSD LAB/PT2/7seg.vhd" Line 46. Size mismatch.  String literal "1001111" is of size 7 but is expected to be of size 8.
+ERROR:HDLParsers:3384 - "E:/College/6th Sem/DSD/DSD LAB/PT2/7seg.vhd" Line 47. Size mismatch.  String literal "1101111" is of size 7 but is expected to be of size 8.
+ERROR:HDLParsers:3384 - "E:/College/6th Sem/DSD/DSD LAB/PT2/7seg.vhd" Line 48. Size mismatch.  String literal "0011100" is of size 7 but is expected to be of size 8.
+ERROR:HDLParsers:3384 - "E:/College/6th Sem/DSD/DSD LAB/PT2/7seg.vhd" Line 49. Size mismatch.  String literal "1111111" is of size 7 but is expected to be of size 8.
+ERROR:HDLParsers:3384 - "E:/College/6th Sem/DSD/DSD LAB/PT2/7seg.vhd" Line 50. Size mismatch.  String literal "1011101" is of size 7 but is expected to be of size 8.
+ERROR:HDLParsers:3448 - "E:/College/6th Sem/DSD/DSD LAB/PT2/7seg.vhd" Line 51. null waveform element is not supported.
+CPU : 0.06 / 0.26 s | Elapsed : 0.00 / 1.00 s
+ 
+--> 
+
+Total memory usage is 210912 kilobytes
+
+Number of errors   :   11 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

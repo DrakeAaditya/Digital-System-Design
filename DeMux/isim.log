@@ -1,0 +1,35 @@
+ command line:
+   ./DemuxWave_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  59174
+
+Wed Jan 31 21:49:17 2018
+
+Total Line Count = 859
+
+ Elaboration time 0.015625 sec.
+
+ Estimate current memory usage 150.032 Meg. 
+
+ Total signals 36
+ Total nets 9
+ Total signal drivers 9
+ Total blocks 13
+ Total primitive blocks 6
+ Total processes 7
+ntrace select -o on -n /DeMuxWave/e 
+ntrace select -o on -n /DeMuxWave/s0 
+ntrace select -o on -n /DeMuxWave/s1 
+ntrace select -o on -n /DeMuxWave/d0 
+ntrace select -o on -n /DeMuxWave/d1 
+ntrace select -o on -n /DeMuxWave/d2 
+ntrace select -o on -n /DeMuxWave/d3 
+ntrace start 
+run all 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+run 1000000 ns 
+INFO:Simulator:30 - Simulator is stopped.
+run 1000000 ns 
+INFO:Simulator:30 - Simulator is stopped.
